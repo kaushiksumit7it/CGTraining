@@ -1,5 +1,5 @@
 
-public class VotingException {
+public class VotingException extends Exception{
 	public VotingException() {
 		System.out.println("User defined Exception thrown");
 	}
