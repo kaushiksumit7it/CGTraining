@@ -5,7 +5,7 @@ class MyExceptionDemo{
 		try {
 			int age=16;
 			if(age < 18)
-				throw new MyException();
+				throw new VotingException();
 		}
 		
 		catch(NumberFormatException e) {
